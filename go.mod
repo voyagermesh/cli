@@ -9,6 +9,7 @@ require (
 	gomodules.xyz/x v0.0.8
 	k8s.io/apimachinery v0.21.2
 	k8s.io/client-go v0.21.2
+	k8s.io/klog/v2 v2.8.0
 	kmodules.xyz/client-go v0.0.0-20211013093146-1fbfd52e78c9
 	sigs.k8s.io/yaml v1.2.0
 	voyagermesh.dev/apimachinery v0.1.3
@@ -78,7 +79,6 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	k8s.io/api v0.21.2 // indirect
 	k8s.io/apiextensions-apiserver v0.21.2 // indirect
-	k8s.io/klog/v2 v2.8.0 // indirect
 	k8s.io/kube-openapi v0.0.0-20210305001622-591a79e4bda7 // indirect
 	k8s.io/utils v0.0.0-20210527160623-6fdb442a123b // indirect
 	kmodules.xyz/monitoring-agent-api v0.0.0-20210928135619-38ca075a2dbd // indirect
