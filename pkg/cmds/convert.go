@@ -30,9 +30,7 @@ import (
 )
 
 func NewCmdConvert() *cobra.Command {
-	var (
-		fromFile string
-	)
+	var fromFile string
 	cmd := &cobra.Command{
 		Use:   "convert",
 		Short: "Convert v1beta1 to v1 api version",
