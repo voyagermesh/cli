@@ -1103,5 +1103,5 @@ sigs.k8s.io/yaml v1.1.0/go.mod h1:UJmg0vDUVViEyp3mgSv9WPwZCDxu4rQW1olrI1uml+o=
 sigs.k8s.io/yaml v1.2.0 h1:kr/MCeFWJWTwyaHoR9c8EjH9OumOmoF9YGiZd7lFm/Q=
 sigs.k8s.io/yaml v1.2.0/go.mod h1:yfXDCHCao9+ENCvLSE62v9VSji2MKu5jeNfTrofGhJc=
 sourcegraph.com/sourcegraph/appdash v0.0.0-20190731080439-ebfcffb1b5c0/go.mod h1:hI742Nqp5OhwiqlzhgfbWU4mW4yO10fP+LoT9WOswdU=
-voyagermesh.dev/apimachinery v0.4.0 h1:EAO8tBMFfuTOQC31TLv0bjWzUHcmleNRjvdiHzRjoy8=
-voyagermesh.dev/apimachinery v0.4.0/go.mod h1:lA6aiKEejHH6/sPKO6c9HiT84t/9pZtDax/NlV55xkU=
+voyagermesh.dev/apimachinery v0.4.1 h1:hsaCJaskDqTYjgS1jKV/azo82fiNEgy/uRBxqje4uDU=
+voyagermesh.dev/apimachinery v0.4.1/go.mod h1:lA6aiKEejHH6/sPKO6c9HiT84t/9pZtDax/NlV55xkU=
