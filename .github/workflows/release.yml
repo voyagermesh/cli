@@ -37,6 +37,7 @@ jobs:
         with:
           files: |
             bin/kubectl-voyager-darwin-amd64.tar.gz
+            bin/kubectl-voyager-darwin-arm64.tar.gz
             bin/kubectl-voyager-linux-amd64.tar.gz
             bin/kubectl-voyager-linux-arm.tar.gz
             bin/kubectl-voyager-linux-arm64.tar.gz
