@@ -21,6 +21,16 @@ spec:
       bin: kubectl-voyager-darwin-amd64
     - selector:
         matchLabels:
+          os: darwin
+          arch: arm64
+      uri: https://github.com/voyagermesh/cli/releases/download/{VERSION}/kubectl-voyager-darwin-arm64.tar.gz
+      sha256: {SHA256SUM_DARWIN_ARM64}
+      files:
+        - from: "*"
+          to: "."
+      bin: kubectl-voyager-darwin-arm64
+    - selector:
+        matchLabels:
           os: linux
           arch: amd64
       uri: https://github.com/voyagermesh/cli/releases/download/{VERSION}/kubectl-voyager-linux-amd64.tar.gz

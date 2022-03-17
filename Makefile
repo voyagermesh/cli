@@ -308,6 +308,7 @@ gen-krew-manifest:
 	@sed                                               \
       -e 's|{VERSION}|$(VERSION)|g'                                                                       \
       -e 's|{SHA256SUM_DARWIN_AMD64}|$(shell sha256sum bin/$(BIN)-darwin-amd64.tar.gz | cut -d' ' -f1)|g' \
+      -e 's|{SHA256SUM_DARWIN_ARM64}|$(shell sha256sum bin/$(BIN)-darwin-arm64.tar.gz | cut -d' ' -f1)|g' \
       -e 's|{SHA256SUM_LINUX_AMD64}|$(shell sha256sum bin/$(BIN)-linux-amd64.tar.gz | cut -d' ' -f1)|g'   \
       -e 's|{SHA256SUM_LINUX_ARM}|$(shell sha256sum bin/$(BIN)-linux-arm.tar.gz | cut -d' ' -f1)|g'       \
       -e 's|{SHA256SUM_LINUX_ARM64}|$(shell sha256sum bin/$(BIN)-linux-arm64.tar.gz | cut -d' ' -f1)|g'   \
