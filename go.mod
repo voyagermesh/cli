@@ -4,6 +4,7 @@ go 1.17
 
 require (
 	github.com/spf13/cobra v1.1.3
+	golang.org/x/text v0.3.7
 	gomodules.xyz/logs v0.0.6
 	gomodules.xyz/runtime v0.2.0
 	gomodules.xyz/x v0.0.8
@@ -46,11 +47,11 @@ require (
 	github.com/imdario/mergo v0.3.12 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/jpillora/go-ogle-analytics v0.0.0-20161213085824-14b04e0594ef // indirect
-	github.com/json-iterator/go v1.1.11 // indirect
+	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/mailru/easyjson v0.7.0 // indirect
 	github.com/mitchellh/mapstructure v1.4.1 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
-	github.com/modern-go/reflect2 v1.0.1 // indirect
+	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/russross/blackfriday/v2 v2.0.1 // indirect
 	github.com/sergi/go-diff v1.2.0 // indirect
@@ -63,7 +64,6 @@ require (
 	golang.org/x/oauth2 v0.0.0-20210615190721-d04028783cf1 // indirect
 	golang.org/x/sys v0.0.0-20210817190340-bfb29a6856f2 // indirect
 	golang.org/x/term v0.0.0-20210220032956-6a3ed077a48d // indirect
-	golang.org/x/text v0.3.7 // indirect
 	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac // indirect
 	gomodules.xyz/clock v0.0.0-20200817085942-06523dba733f // indirect
 	gomodules.xyz/flags v0.1.3 // indirect
