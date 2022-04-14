@@ -535,7 +535,7 @@ sigs.k8s.io/structured-merge-diff/v4/value
 # sigs.k8s.io/yaml v1.2.0
 ## explicit; go 1.12
 sigs.k8s.io/yaml
-# voyagermesh.dev/apimachinery v0.4.1
+# voyagermesh.dev/apimachinery v0.4.2
 ## explicit; go 1.16
 voyagermesh.dev/apimachinery/apis/voyager
 voyagermesh.dev/apimachinery/apis/voyager/v1
