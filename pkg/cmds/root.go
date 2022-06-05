@@ -23,7 +23,6 @@ import (
 	v "gomodules.xyz/x/version"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	clientsetscheme "k8s.io/client-go/kubernetes/scheme"
-	"kmodules.xyz/client-go/tools/cli"
 )
 
 func NewRootCmd() *cobra.Command {
@@ -32,20 +31,14 @@ func NewRootCmd() *cobra.Command {
 		Short:             `Voyager cli by AppsCode`,
 		DisableAutoGenTag: true,
 		PersistentPreRun: func(c *cobra.Command, args []string) {
-			cli.SendAnalytics(c, v.Version.Version)
-
 			utilruntime.Must(scheme.AddToScheme(clientsetscheme.Scheme))
 		},
 	}
-
-	flags := rootCmd.PersistentFlags()
 
 	// kubeConfigFlags := genericclioptions.NewConfigFlags(true)
 	// kubeConfigFlags.AddFlags(flags)
 	// matchVersionKubeConfigFlags := cmdutil.NewMatchVersionFlags(kubeConfigFlags)
 	// matchVersionKubeConfigFlags.AddFlags(flags)
-
-	flags.BoolVar(&cli.EnableAnalytics, "enable-analytics", cli.EnableAnalytics, "Send analytical events to Google Analytics")
 
 	// f := cmdutil.NewFactory(matchVersionKubeConfigFlags)
 
