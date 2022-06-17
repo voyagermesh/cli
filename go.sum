@@ -1057,5 +1057,5 @@ sigs.k8s.io/structured-merge-diff/v4 v4.2.1/go.mod h1:j/nl6xW8vLS49O8YvXW1ocPhZa
 sigs.k8s.io/yaml v1.2.0/go.mod h1:yfXDCHCao9+ENCvLSE62v9VSji2MKu5jeNfTrofGhJc=
 sigs.k8s.io/yaml v1.3.0 h1:a2VclLzOGrwOHDiV8EfBGhvjHvP46CtW5j6POvhYGGo=
 sigs.k8s.io/yaml v1.3.0/go.mod h1:GeOyir5tyXNByN85N/dRIT9es5UQNerPYEKK56eTBm8=
-voyagermesh.dev/apimachinery v0.4.3-0.20220603215924-9a6e26b778a9 h1:Co2cbQgPQjPoD6UCoo5NInuqN2G+sy+u9t37f2Zv4iM=
-voyagermesh.dev/apimachinery v0.4.3-0.20220603215924-9a6e26b778a9/go.mod h1:VMlGlww9kWbiFSKt+SQSXPxI7f5/N4Y06z3kqqRV0Rs=
+voyagermesh.dev/apimachinery v0.5.0 h1:UqIfLmWVBPv0xXA/Cg9wFFfcy+wjzGlFmqtGxDPs+u8=
+voyagermesh.dev/apimachinery v0.5.0/go.mod h1:VMlGlww9kWbiFSKt+SQSXPxI7f5/N4Y06z3kqqRV0Rs=
