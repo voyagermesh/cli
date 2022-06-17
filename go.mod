@@ -13,7 +13,7 @@ require (
 	k8s.io/klog/v2 v2.60.1
 	kmodules.xyz/client-go v0.24.0
 	sigs.k8s.io/yaml v1.3.0
-	voyagermesh.dev/apimachinery v0.4.3-0.20220603215924-9a6e26b778a9
+	voyagermesh.dev/apimachinery v0.5.0
 )
 
 require (
