@@ -18,7 +18,7 @@ package cmds
 
 import (
 	"fmt"
-	"io/ioutil"
+	"os"
 
 	api "voyagermesh.dev/apimachinery/apis/voyager/v1"
 
@@ -35,7 +35,7 @@ func NewCmdCheck() *cobra.Command {
 		Use:   "check",
 		Short: "Check Ingress",
 		RunE: func(cmd *cobra.Command, args []string) error {
-			ingBytes, err := ioutil.ReadFile(fromFile)
+			ingBytes, err := os.ReadFile(fromFile)
 			if err != nil {
 				return err
 			}
