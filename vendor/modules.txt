@@ -513,7 +513,7 @@ k8s.io/utils/internal/third_party/forked/golang/net
 k8s.io/utils/net
 k8s.io/utils/pointer
 k8s.io/utils/strings/slices
-# kmodules.xyz/client-go v0.25.0
+# kmodules.xyz/client-go v0.25.12
 ## explicit; go 1.18
 kmodules.xyz/client-go
 kmodules.xyz/client-go/apiextensions
@@ -543,7 +543,7 @@ sigs.k8s.io/structured-merge-diff/v4/value
 # sigs.k8s.io/yaml v1.3.0
 ## explicit; go 1.12
 sigs.k8s.io/yaml
-# voyagermesh.dev/apimachinery v0.6.1-0.20220918015950-11bcee3c34e0
+# voyagermesh.dev/apimachinery v0.7.0
 ## explicit; go 1.18
 voyagermesh.dev/apimachinery/apis/voyager
 voyagermesh.dev/apimachinery/apis/voyager/v1
