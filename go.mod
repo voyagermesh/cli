@@ -3,17 +3,17 @@ module voyagermesh.dev/cli
 go 1.18
 
 require (
-	github.com/spf13/cobra v1.4.0
-	golang.org/x/text v0.3.7
+	github.com/spf13/cobra v1.6.0
+	golang.org/x/text v0.7.0
 	gomodules.xyz/logs v0.0.6
 	gomodules.xyz/runtime v0.3.0
 	gomodules.xyz/x v0.0.14
 	k8s.io/apimachinery v0.25.1
 	k8s.io/client-go v0.25.1
 	k8s.io/klog/v2 v2.80.1
-	kmodules.xyz/client-go v0.25.12
+	kmodules.xyz/client-go v0.25.18
 	sigs.k8s.io/yaml v1.3.0
-	voyagermesh.dev/apimachinery v0.7.0
+	voyagermesh.dev/apimachinery v0.7.1
 )
 
 require (
@@ -25,7 +25,7 @@ require (
 	github.com/Azure/go-autorest/logger v0.2.1 // indirect
 	github.com/Azure/go-autorest/tracing v0.6.0 // indirect
 	github.com/Masterminds/semver/v3 v3.1.1 // indirect
-	github.com/cpuguy83/go-md2man/v2 v2.0.1 // indirect
+	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/emicklei/go-restful/v3 v3.9.0 // indirect
 	github.com/evanphx/json-patch v5.6.0+incompatible // indirect
@@ -40,7 +40,7 @@ require (
 	github.com/google/gnostic v0.6.9 // indirect
 	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
-	github.com/inconshreveable/mousetrap v1.0.0 // indirect
+	github.com/inconshreveable/mousetrap v1.0.1 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
@@ -54,12 +54,12 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/yudai/gojsondiff v1.0.0 // indirect
 	github.com/yudai/golcs v0.0.0-20170316035057-ecda9a501e82 // indirect
-	golang.org/x/crypto v0.0.0-20220315160706-3147a52a75dd // indirect
-	golang.org/x/net v0.0.0-20220909164309-bea034e7d591 // indirect
-	golang.org/x/oauth2 v0.0.0-20220822191816-0ebed06d0094 // indirect
-	golang.org/x/sys v0.0.0-20220829200755-d48e67d00261 // indirect
-	golang.org/x/term v0.0.0-20220722155259-a9ba230a4035 // indirect
-	golang.org/x/time v0.0.0-20220722155302-e5dcc9cfc0b9 // indirect
+	golang.org/x/crypto v0.6.0 // indirect
+	golang.org/x/net v0.7.0 // indirect
+	golang.org/x/oauth2 v0.5.0 // indirect
+	golang.org/x/sys v0.5.0 // indirect
+	golang.org/x/term v0.5.0 // indirect
+	golang.org/x/time v0.1.0 // indirect
 	gomodules.xyz/clock v0.0.0-20200817085942-06523dba733f // indirect
 	gomodules.xyz/flags v0.1.3 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.2.0 // indirect
