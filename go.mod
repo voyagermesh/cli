@@ -8,12 +8,12 @@ require (
 	gomodules.xyz/logs v0.0.6
 	gomodules.xyz/runtime v0.3.0
 	gomodules.xyz/x v0.0.14
-	k8s.io/apimachinery v0.25.1
+	k8s.io/apimachinery v0.25.3
 	k8s.io/client-go v0.25.1
 	k8s.io/klog/v2 v2.80.1
-	kmodules.xyz/client-go v0.25.18
+	kmodules.xyz/client-go v0.25.22
 	sigs.k8s.io/yaml v1.3.0
-	voyagermesh.dev/apimachinery v0.7.1
+	voyagermesh.dev/apimachinery v0.7.2
 )
 
 require (
@@ -50,7 +50,7 @@ require (
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
-	github.com/sergi/go-diff v1.1.0 // indirect
+	github.com/sergi/go-diff v1.2.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/yudai/gojsondiff v1.0.0 // indirect
 	github.com/yudai/golcs v0.0.0-20170316035057-ecda9a501e82 // indirect
