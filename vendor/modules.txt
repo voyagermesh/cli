@@ -724,7 +724,7 @@ k8s.io/utils/trace
 # kmodules.xyz/apiversion v0.2.0
 ## explicit; go 1.14
 kmodules.xyz/apiversion
-# kmodules.xyz/client-go v0.32.4
+# kmodules.xyz/client-go v0.32.8
 ## explicit; go 1.23.0
 kmodules.xyz/client-go
 kmodules.xyz/client-go/api/v1
@@ -805,7 +805,7 @@ sigs.k8s.io/structured-merge-diff/v4/value
 ## explicit; go 1.12
 sigs.k8s.io/yaml
 sigs.k8s.io/yaml/goyaml.v2
-# voyagermesh.dev/apimachinery v0.10.0
+# voyagermesh.dev/apimachinery v0.11.0
 ## explicit; go 1.23.0
 voyagermesh.dev/apimachinery/apis/voyager
 voyagermesh.dev/apimachinery/apis/voyager/v1

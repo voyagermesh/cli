@@ -13,9 +13,9 @@ require (
 	k8s.io/apimachinery v0.32.2
 	k8s.io/client-go v0.32.2
 	k8s.io/klog/v2 v2.130.1
-	kmodules.xyz/client-go v0.32.4
+	kmodules.xyz/client-go v0.32.8
 	sigs.k8s.io/yaml v1.4.0
-	voyagermesh.dev/apimachinery v0.10.0
+	voyagermesh.dev/apimachinery v0.11.0
 )
 
 require (
