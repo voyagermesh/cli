@@ -509,8 +509,8 @@ k8s.io/utils v0.0.0-20241210054802-24370beab758 h1:sdbE21q2nlQtFh65saZY+rRM6x6aJ
 k8s.io/utils v0.0.0-20241210054802-24370beab758/go.mod h1:OLgZIPagt7ERELqWJFomSt595RzquPNLL48iOWgYOg0=
 kmodules.xyz/apiversion v0.2.0 h1:vAQYqZFm4xu4pbB1cAdHbFEPES6EQkcR4wc06xdTOWk=
 kmodules.xyz/apiversion v0.2.0/go.mod h1:oPX8g8LvlPdPX3Yc5YvCzJHQnw3YF/X4/jdW0b1am80=
-kmodules.xyz/client-go v0.32.4 h1:eB5I18rLptkx0vsDcqIr62I23sX16K3BBs29RoOxrFk=
-kmodules.xyz/client-go v0.32.4/go.mod h1:ZwLnc7UqEXUNSe43n/SnER6+7YAQCu38L2te6YefoHU=
+kmodules.xyz/client-go v0.32.8 h1:KZwJkv6U01kk8RR8M+ZWBhcyd5LusX4mDunJYXA7N3E=
+kmodules.xyz/client-go v0.32.8/go.mod h1:ZwLnc7UqEXUNSe43n/SnER6+7YAQCu38L2te6YefoHU=
 kmodules.xyz/monitoring-agent-api v0.32.0 h1:cMQbWvbTc4JWeLI/zYE0HLefsdFYBzqvATLx16qCzxo=
 kmodules.xyz/monitoring-agent-api v0.32.0/go.mod h1:zgRKiJcuK7FOHy0Y1TsONRbJfgnPCs8t4Zh/6Afr+yU=
 kmodules.xyz/webhook-runtime v0.32.0 h1:Y4QuM0jaPUhcwAnFcOaZkm9OYubMp16c8amxgDSujtI=
@@ -527,5 +527,5 @@ sigs.k8s.io/structured-merge-diff/v4 v4.6.0 h1:IUA9nvMmnKWcj5jl84xn+T5MnlZKThmUW
 sigs.k8s.io/structured-merge-diff/v4 v4.6.0/go.mod h1:dDy58f92j70zLsuZVuUX5Wp9vtxXpaZnkPGWeqDfCps=
 sigs.k8s.io/yaml v1.4.0 h1:Mk1wCc2gy/F0THH0TAp1QYyJNzRm2KCLy3o5ASXVI5E=
 sigs.k8s.io/yaml v1.4.0/go.mod h1:Ejl7/uTz7PSA4eKMyQCUTnhZYNmLIl+5c2lQPGR2BPY=
-voyagermesh.dev/apimachinery v0.10.0 h1:aD/t6C/hS9pJqsDxUm6kcxs0QYIXWzZEeFXjxTPgdm0=
-voyagermesh.dev/apimachinery v0.10.0/go.mod h1:xT79QmlVUwjQTpQRiQelkLxUdI95XXtZJftRrTUoFbY=
+voyagermesh.dev/apimachinery v0.11.0 h1:VqBwO6xkb8KMpqGDKgVWj6FuR0IZQgkipkxAiRG9M/o=
+voyagermesh.dev/apimachinery v0.11.0/go.mod h1:/VK9VklbPkzZiOWkRWONZUTWI7D6FvALUCkqNrRJiSo=
